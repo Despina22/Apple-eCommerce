@@ -74,7 +74,7 @@ html {
 }
 .cube {
     width: 20rem;
-    height: 40rem;
+    height: 35rem;
     transform-style: preserve-3d;
     transform: rotateX(0) rotateY(20deg) rotateZ(0);
     position: relative;
@@ -159,8 +159,6 @@ html {
 /* Controls */
 .controls {
     position: absolute;
-    /* cube-wrapper ne mora da bide position:relative 
-    zatoa sto section-1 e disply:flex */
     bottom: -12rem;
     left: 50%;
     transform: translateX(-50%);
